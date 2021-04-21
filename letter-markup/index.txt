@@ -35,20 +35,28 @@
         </style>
     </head>
     <body>
-<p><address><strong>Dr. Eleanor Gaye</strong><br>
+<address>
+    <p class= "sender-column">
+<strong>Dr. Eleanor Gaye</strong><br>
 Awesome Science faculty<br>
 University of Awesome<br>
 Bobtown, CA 99999,<br>
 USA <br>
 <strong>Tel</strong>: 123-456-7890<br>
-<strong>Email</strong>: no_reply@example.com</address></p>
+<strong>Email</strong>: no_reply@example.com
+</p>
+</address>
 
-<p><time datetime="2016-01-20"> 20 January 2016</time></p>
+<p class="sender-column"><time datetime="2016-01-20"> 20 January 2016</time></p>
 
-<p><address><strong>Miss Eileen Dover</strong><br>
+<address>
+<p>
+<strong>Miss Eileen Dover</strong><br>
 4321 Cliff Top Edge<br>
 Dover, CT9 XXX<br>
-UK</address></p>
+UK
+</p>
+</address>
 
 
 <h1>Re: Eileen Dover university application</h1>
