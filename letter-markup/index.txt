@@ -42,10 +42,8 @@ Bobtown, CA 99999,<br>
 USA <br>
 <strong>Tel</strong>: 123-456-7890<br>
 <strong>Email</strong>: no_reply@example.com</address></p>
-<sender-column></sender-column>
 
 <p><time datetime="2016-01-20"> 20 January 2016</time></p>
-<sender-column></sender-column>
 
 <p><address><strong>Miss Eileen Dover</strong><br>
 4321 Cliff Top Edge<br>
@@ -105,7 +103,7 @@ UK</address></p>
 <p>Yours sincerely,</p>
 <p>Dr Eleanor Gaye</p>
 
-<p>University of Awesome motto: <q>Be awesome to each other.</q> --<cite>The memoirs of Bill S Preston</cite>, <abbr title= "Esquire">Esq</abbr></p>
+<p>University of Awesome motto: <q>Be awesome to each other.</q> --<em>The memoirs of Bill S Preston</em>, <abbr title= "Esquire">Esq</abbr></p>
     </body>
 </html>
         
