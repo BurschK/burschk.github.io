@@ -23,17 +23,17 @@
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                     <colgroup> 
                         <col span= "2">
-                        <col style= "border: 2px solid black">
-                        <col span= "9">
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
+                        <col style= "border: 2px solid black" title= "Name">
+                        <col span= "9" title= "Mass">
+                        <col title= "Diameter">
+                        <col title= "Density">
+                        <col title= "Gravity">
+                        <col title= "Length of Day">
+                        <col title= "Distance from Sun">
+                        <col title= "Mean temperature">
+                        <col title= "Number of Moons">
+                        <col title= "Notes">
+                        <col title= "Image">
                     </colgroup>
                 <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
                     <thead>
@@ -55,7 +55,7 @@
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
                     <tbody>
                         <tr>
-                        <th rowspan= "4" colspan= "2">Terrestrial planets</th>
+                        <th scope= "rowgroup" rowspan= "4" colspan= "2">Terrestrial planets</th>
                         <th>Mercury</th>
                         <td>0.330</td>
                         <td>4,879</td>
@@ -108,8 +108,8 @@
                             <td><img src= "images/mars.jpg" alt= "Mars, known by many as the red planet, and the last of the Terrestrial planets."></td>
                         </tr>
                         <tr>
-                            <th rowspan= "4">Jovian planets</th>
-                            <th rowspan= "2">Gas giants</th>
+                            <th scope= "row" rowspan= "4">Jovian planets</th>
+                            <th scope= "row" rowspan= "2">Gas giants</th>
                             <th>Jupiter</th>
                             <td>1898</td>
                             <td>142,984</td>
@@ -136,7 +136,7 @@
                             <td><img src= "images/saturn.jpg" alt= "Saturn, one of the Gas giant planets."></td>
                         </tr>
                         <tr>
-                            <th rowspan= "2">Ice giants</th>
+                            <th scope= "row" rowspan= "2">Ice giants</th>
                             <th>Uranus</th>
                             <td>86.8</td>
                             <td>51,118</td>
@@ -163,7 +163,7 @@
                             <td><img src="images/neptune.jpg"alt= "Neptune, another planet referred to as one of the 'Ice giants'."></td>
                         </tr>
                         <tr>
-                            <th colspan= "2">Dwarf planets</th>
+                            <th scope= "row" colspan= "2">Dwarf planets</th>
                             <th>Pluto</th>
                             <td>0.0146</td>
                             <td>2,370</td>
