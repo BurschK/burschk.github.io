@@ -56,11 +56,11 @@ main {
 
 h1 {
     text-transform: uppercase;
-    font-size:6rem;
+    font-size: 6rem;
     margin: 0;
-    letter-spacing:.5rem;
+    letter-spacing: .5rem;
     color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
 }
@@ -71,7 +71,7 @@ h2 {
     margin: 0;
     letter-spacing:.25rem;
     color: darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
     font-weight: normal;
@@ -79,9 +79,10 @@ h2 {
 
 h3 {
     text-transform: uppercase;
-    font-size:2rem;
+    font-size: 2rem;
     margin: 0;
     color: black;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
     font-weight: normal;
@@ -89,23 +90,24 @@ h3 {
 
 h4 {
     text-transform: uppercase;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     margin: 0;
-    letter-spacing:.25rem;
+    letter-spacing: .25rem;
     color: darkred;
+    text-shadow: .09375rem .09375rem .09375rem #000;
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
     font-weight: normal;
-    padding-bottom:1.125rem;
+    padding-bottom: 1.125rem;
 }
 
 h5 {
-    font-size:1rem;
-    margin-top:.25rem;
-    padding-top:.5rem;
-    padding-bottom:.5rem;
-    padding-left:.5rem;
-    padding-right:.5rem;
+    font-size: 1rem;
+    margin-top: .25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
     background-color: #333;
     color: #FFF;
     font-weight: normal;
@@ -115,7 +117,7 @@ h5 {
 /* Section & Paragraph */
 
 section {
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 p {
