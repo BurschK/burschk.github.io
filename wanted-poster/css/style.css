@@ -101,6 +101,13 @@ h4 {
     padding-bottom: 1.125rem;
 }
 
+h4.span {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 h5 {
     font-size: 1rem;
     margin-top: .25rem;
@@ -161,7 +168,5 @@ footer {
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-width: 2rem;
-    border-style: solid;
-    border-color: #333;
+    border-top: 2rem solid #333;
 }
