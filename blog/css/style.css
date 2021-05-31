@@ -144,17 +144,18 @@ h1 {
 
 .highlight {
     font-family:"ultra", Times, serif;
-    border: .0625rem solid maroon;
-    padding: maroon;
+    padding: .075rem solid maroon;
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
 }
-
+nav {
+    border-top: .0625rem solid black;
+    border-bottom: .0625rem solid black;
+}
 nav a{
     font-family:"roboto", Verdana, sans-serif;
     text-shadow: blue;
-    border-top: .0625rem solid black;
-    border-bottom: .0625rem solid black;
+ 
 }
 
 h2 {
@@ -180,8 +181,7 @@ figcaption {
 button {
     font-family:"ultra", Times, serif;
     text-align: center;
-    border: .0625rem solid navy;
-    padding: navy;
+    padding: 0.75rem solid navy;
     border-top-right-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
     border-top-left-radius: 5% 20%;
