@@ -49,3 +49,150 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+/*--General Setup--*/
+
+
+/*--Layout--*/
+.main-section {
+    display: flex;
+}
+
+.article-image {
+    float: left;
+}
+
+.subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*--Header and Footer--*/
+
+
+
+/*---------------------------------------------------------------------*/
+
+
+
+/* Imported Typefaces */
+@font-face {
+
+    font-family:"montserrat";
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    
+    font-family:"lato";
+    src: url(../fonts/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"opensans";
+    src: url(../fonts/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"roboto";
+    src: url(../fonts/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+    @font-face {
+
+        font-family:"josefinslab";
+        src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"robotoslab";
+        src: url(../fonts/robotoslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"rozhaone";
+        src: url(../fonts/rozhaone-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+
+    @font-face {
+        font-family:"ultra";
+        src: url(../fonts/ultra-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+    }
+/* Typography Styles */
+
+h1 {
+    font-family:"opensans", Verdana, sans-serif;
+}
+
+h1.highlight {
+    font-family:"ultra", Times, serif;
+}
+
+nav {
+    font-family:"roboto", Verdana, sans-serif;
+}
+
+h2 {
+    font-family:"roboto", Verdana, sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-family: "opensans", Verdana, sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: "lato", Verdana, sans-serif;
+    text-align: left;
+}
+
+button {
+    font-family:"ultra", Times, serif;
+    text-align: center;
+
+}
+
+footer {
+    font-family: "lato", Verdana, sans-serif;
+    text-align: right;
+}
+
+a {
+    font-family: Times, Georgia, serif; 
+}
+/* Link Styling */
+a{
+    outline: none;
+}
+
+a:focus, 
+a:hover {
+    text-decoration-line: none;
+}
+
+a:active {
+    background-color: purple;
+}
+
+/* Navigation Menu */
+
+
+/* Footer Styles */
+
+
+
