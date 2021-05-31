@@ -67,7 +67,9 @@
 }
 
 /*--Header and Footer--*/
-
+footer {
+    float: right;
+}
 
 
 /*---------------------------------------------------------------------*/
@@ -136,14 +138,23 @@
 
 h1 {
     font-family:"opensans", Verdana, sans-serif;
+    text-shadow: black;
+    rotate: 20%;
 }
 
-h1.highlight {
+.highlight {
     font-family:"ultra", Times, serif;
+    border: 1rem solid maroon;
+    border-radius: 1rem;
+    border-top-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
 }
 
-nav {
+nav a{
     font-family:"roboto", Verdana, sans-serif;
+    text-shadow: blue;
+    border-top: .0625rem solid black;
+    border-bottom: .0625rem solid black;
 }
 
 h2 {
@@ -164,6 +175,13 @@ p {
 button {
     font-family:"ultra", Times, serif;
     text-align: center;
+    border: 1rem solid navy;
+    border-top-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    border-top-right-radius:5% 20%;
+    border-bottom-left-radius: 5% 20%;
+    text-shadow: black;
+
 
 }
 
