@@ -170,6 +170,11 @@ h3 {
 p {
     font-family: "lato", Verdana, sans-serif;
     text-align: left;
+
+}
+
+figcaption {
+    border: .0625rem solid lightslategrey;
 }
 
 button {
@@ -207,7 +212,6 @@ a:active {
     background-color: purple;
 }
 
-/* Navigation Menu */
 
 
 /* Footer Styles */
