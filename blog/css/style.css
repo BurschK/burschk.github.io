@@ -144,8 +144,8 @@ h1 {
 
 .highlight {
     font-family:"ultra", Times, serif;
-    border: 1rem solid maroon;
-    border-radius: 1rem;
+    border: .0625rem solid maroon;
+    padding: maroon;
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
 }
@@ -180,11 +180,12 @@ figcaption {
 button {
     font-family:"ultra", Times, serif;
     text-align: center;
-    border: 1rem solid navy;
-    border-top-left-radius: 10% 30%;
-    border-bottom-right-radius: 10% 30%;
-    border-top-right-radius:5% 20%;
-    border-bottom-left-radius: 5% 20%;
+    border: .0625rem solid navy;
+    padding: navy;
+    border-top-right-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    border-top-left-radius: 5% 20%;
+    border-bottom-right-radius: 5% 20%;
     text-shadow: black;
 
 
