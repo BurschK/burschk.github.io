@@ -140,11 +140,13 @@ footer {
 
 h1 {
     font-family:"opensans", Verdana, sans-serif;
+    font-size: 1.75rem;
     text-shadow: black;
     }
 
 .highlight {
     font-family:"ultra", Times, serif;
+    font-size: 1.75rem;
     border: .5rem solid maroon;
     background-color: maroon;
     border-top-left-radius: 10% 30%;
@@ -157,9 +159,14 @@ nav {
     line-height: .03125rem;
 }
 
+nav a {
+    font-size: 1.5rem;
+}
+
 
 h2 {
     font-family:"roboto", Verdana, sans-serif;
+    font-size: 1.25rem;
     text-align: left;
 }
 
@@ -174,6 +181,10 @@ p {
 
 }
 
+.time {
+    font-size: .75rem;
+}
+
 figcaption {
     border: .0625rem solid lightgrey;
     background-color: lightgrey;
@@ -181,6 +192,7 @@ figcaption {
 
 button {
     font-family:"ultra", Times, serif;
+    font-size: 1.5rem;
     text-align: center;
     border: 0.5rem solid navy;
     background-color: navy;
@@ -192,6 +204,10 @@ button {
     color: white;
 
 
+}
+
+aside p {
+    font-size: .75rem;
 }
 
 footer {
