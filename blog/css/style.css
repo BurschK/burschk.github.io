@@ -142,19 +142,20 @@ h1 {
     font-family:"opensans", Verdana, sans-serif;
     text-shadow: black;
     writing-mode:horizontal-tb;
-    text-orientation: sideways-right;
+    text-orientation: sideways;
     }
 
 .highlight {
     font-family:"ultra", Times, serif;
-    color: maroon;
+    border: .5rem solid maroon;
+    background-color: maroon;
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
 }
 nav {
     border-top: .03125rem solid black;
     border-bottom: .03125rem solid black;
-    letter-spacing: .03125rem;
+    line-height: .03125rem;
 }
 
 
@@ -181,7 +182,8 @@ figcaption {
 button {
     font-family:"ultra", Times, serif;
     text-align: center;
-    color: navy;
+    border: 0.5rem solid navy;
+    background-color: navy;
     border-top-right-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
     border-top-left-radius: 5% 20%;
@@ -212,14 +214,6 @@ a:hover {
 a:active {
     background-color: purple;
 }
-
-nav a{
-    font-family:"roboto", Verdana, sans-serif;
-    text-shadow: blue;
- 
-}
-
-
 
 /* Footer Styles */
 
