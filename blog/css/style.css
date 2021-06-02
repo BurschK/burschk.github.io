@@ -156,7 +156,7 @@ h1 {
 nav {
     border-top: .03125rem solid black;
     border-bottom: .03125rem solid black;
-    line-height: .03125rem;
+    line-height: 2rem;
 }
 
 nav a {
@@ -190,6 +190,10 @@ figcaption {
     background-color: lightgrey;
 }
 
+.dots {
+    font-size: .5rem;
+}
+
 button {
     font-family:"ultra", Times, serif;
     font-size: 1.5rem;
@@ -202,13 +206,8 @@ button {
     border-bottom-right-radius: 5% 20%;
     text-shadow: black;
     color: white;
-
-
 }
 
-aside p {
-    font-size: .75rem;
-}
 
 footer {
     font-family: "lato", Verdana, sans-serif;
@@ -218,14 +217,18 @@ footer {
 a {
     font-family: Times, Georgia, serif; 
 }
+
 /* Link Styling */
+
 a{
     outline: none;
+    text-decoration-line: none;
 }
 
 a:focus, 
 a:hover {
-    text-decoration-line: none;
+    border-bottom: .0625rem solid;
+    background-color: lightpurple;
 }
 
 a:active {
