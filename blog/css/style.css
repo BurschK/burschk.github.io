@@ -71,7 +71,6 @@ body {
 .subsection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: .25rem;
 }
 
 /*--Header and Footer--*/
@@ -148,7 +147,7 @@ footer {
 
 h1 {
     font-family:"opensans", Verdana, sans-serif;
-    font-size: 5rem;
+    font-size: 2rem;
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
@@ -156,7 +155,7 @@ h1 {
 
 .highlight {
     font-family:"ultra", Times, serif;
-    font-size: 1.75rem;
+    font-size: 4rem;
     border: .5rem solid maroon;
     background-color: maroon;
     border-top-left-radius: 10% 30%;
@@ -166,6 +165,11 @@ h1 {
     text-align: center;
     margin-bottom: 1 rem;
 }
+
+img {
+ margin: .25rem;
+}
+
 nav {
     border-top: .03125rem solid black;
     border-bottom: .03125rem solid black;
@@ -202,10 +206,13 @@ p {
     font-size: .75rem;
 }
 
+figure {
+ margin-bottom: none;
+}
+
 figcaption {
     border: .0625rem solid lightgrey;
     background-color: lightgrey;
-    margin-top: .5rem;
 }
 
 .dots {
