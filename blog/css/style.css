@@ -164,16 +164,12 @@ h1 {
     margin-bottom: 1 rem;
 }
 
-img {
- margin: .25rem;
-}
-
 nav {
     border-top: .03125rem solid black;
     border-bottom: .03125rem solid black;
-    word-spacing: 3rem;
+    word-spacing: 4rem;
     line-height: 3rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 nav a {
@@ -186,7 +182,7 @@ h2 {
     font-size: 1.25rem;
     text-align: left;
     margin-top: 3rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 h3 {
@@ -209,7 +205,10 @@ figure {
 }
 
 figcaption {
-    border: .0625rem solid lightgrey;
+    border-top: 1rem solid lightgrey;
+    border-left: .0625rem solid lightgrey;
+    border-right: .0625rem solid lightgrey;
+    border-bottom: .0625rem solid lightgrey;
     background-color: lightgrey;
 }
 
