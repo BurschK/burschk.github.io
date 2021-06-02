@@ -67,8 +67,13 @@ font-size: 1rem;
     margin-right: 1rem;
 }
 
+img {
+ width: 100%;
+ height: 100%;
+}
+
+
 .subsection {
-    float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -76,6 +81,15 @@ font-size: 1rem;
 /*--Header and Footer--*/
 
 
+.copyright {
+   float: left:
+   text-align: left;
+}
+
+.links {
+   float: right:
+   text-align: right;
+}
 
 /*---------------------------------------------------------------------*/
 
@@ -198,7 +212,7 @@ p {
 
 .time {
     font-size: .75rem;
-    font-style: italic;
+    font-style: oblique;
 }
 
 figure {
@@ -238,16 +252,9 @@ button {
     margin-top: 1 rem;
 }
 
-.copyright {
-   float: left:
-   text-align: left;
-}
-
-
 
 footer {
     font-family: "lato", Verdana, sans-serif;
-    text-align: right;
 }
 
 a {
@@ -271,7 +278,6 @@ a:active {
     background-color: purple;
 }
 
-/* Footer Styles */
 
 
 
