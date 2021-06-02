@@ -56,12 +56,10 @@ font-size: 1rem;
 
 /*--Layout--*/
 
-body {
-    margin: 1.5rem auto;
-}
-
 .main-section {
     display: flex;
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 .article-image {
@@ -213,6 +211,12 @@ figure {
 figcaption {
     border: .0625rem solid lightgrey;
     background-color: lightgrey;
+}
+
+aside {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
 }
 
 .dots {
