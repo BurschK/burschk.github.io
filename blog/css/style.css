@@ -64,19 +64,17 @@ font-size: 1rem;
 
 .article-image {
     float: left;
+    margin-right: 1rem;
 }
 
 .subsection {
+    float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*--Header and Footer--*/
 
-
-footer {
-    float: right;
-}
 
 
 /*---------------------------------------------------------------------*/
