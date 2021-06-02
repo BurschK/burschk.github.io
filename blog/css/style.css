@@ -50,7 +50,9 @@
 
 
 /*--General Setup--*/
-
+ * {
+font-size: 1rem;
+}
 
 /*--Layout--*/
 .main-section {
@@ -63,7 +65,7 @@
 
 .subsection {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 2fr 2fr 2fr;
 }
 
 /*--Header and Footer--*/
@@ -173,8 +175,8 @@ p {
 }
 
 figcaption {
-    border: .0625rem solid lightslategrey;
-    background-color: lightslategrey;
+    border: .0625rem solid lightgrey;
+    background-color: lightgrey;
 }
 
 button {
