@@ -159,6 +159,7 @@ h1 {
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
+    transform: rotate(35deg);
     }
 
 .highlight {
@@ -169,9 +170,10 @@ h1 {
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
     box-shadow: black;
-    color:rgba(230, 240, 147, 0.986);
+    color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
+    transform: rotate(35deg);
 }
 
 nav {
@@ -188,6 +190,12 @@ nav a{
     color: blue;
 }
 
+.slash {
+text-decoration-line: line-through;
+width: 9.375rem;
+height: 5rem;
+transform: rotate(10deg);
+}
 
 h2 {
     font-family:"roboto", Verdana, sans-serif;
@@ -219,11 +227,11 @@ figure {
 }
 
 figcaption {
-    border-top: 1rem solid rgba(230, 240, 147, 0.986);
-    border-left: .0625rem solid rgba(230, 240, 147, 0.986);
-    border-right: .0625rem solid rgba(230, 240, 147, 0.986);
-    border-bottom: .0625rem solid rgba(230, 240, 147, 0.986);
-    background-color: rgba(230, 240, 147, 0.986);
+    border-top: 1rem solid lightgray;
+    border-left: .0625rem solid lightgray;
+    border-right: .0625rem solid lightgray;
+    border-bottom: .0625rem solid lightgray;
+    background-color: lightgray;
 }
 
 aside {
@@ -247,7 +255,7 @@ button {
     border-top-left-radius: 5% 20%;
     border-bottom-right-radius: 5% 20%;
     box-shadow: black;
-    color: rgba(230, 240, 147, 0.986);
+    color: lightgray;
     margin-top: 1 rem;
 }
 
