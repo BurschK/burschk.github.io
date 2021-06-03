@@ -76,6 +76,10 @@ font-size: 1rem;
     justify-content: space-around;
 }
 
+hr {
+margin-right: 4rem
+}
+
 /*--Header and Footer--*/
 
 
@@ -160,7 +164,8 @@ h1 {
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
-    transform: rotate(120deg);
+    offset-rotate: auto;
+    transform: rotate(20deg);
     }
 
 .highlight {
@@ -174,7 +179,8 @@ h1 {
     color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
-    transform: rotate(120deg);
+    offset-rotate: auto;
+    transform: rotate(20deg);
 }
 
 nav {
@@ -239,7 +245,7 @@ figcaption {
 
 aside {
     margin-left: 2rem;
-    margin-right: 3rem;
+    margin-right: 4rem;
     
 }
 
