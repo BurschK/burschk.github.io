@@ -173,7 +173,7 @@ h1 {
     color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
-    transform: rotate(35deg);
+    transform: rotate(20deg);
 }
 
 nav {
@@ -194,7 +194,9 @@ nav a{
 text-decoration-line: line-through;
 width: 9.375rem;
 height: 5rem;
-transform: rotate(10deg);
+color: black;
+transform: uppercase;
+transform: rotate(15deg);
 }
 
 h2 {
