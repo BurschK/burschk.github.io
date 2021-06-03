@@ -55,6 +55,9 @@ font-size: 1rem;
 }
 
 /*--Layout--*/
+* {
+    background-color:wheat;
+}
 
 .main-section {
     display: flex;
@@ -76,12 +79,12 @@ font-size: 1rem;
 
 
 .copyright {
-   float: left:
+   float: left;
    text-align: left;
 }
 
 .links {
-   float: right:
+   float: right;
    text-align: right;
 }
 
@@ -166,7 +169,7 @@ h1 {
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
     box-shadow: black;
-    color: white;
+    color: wheat;
     text-align: center;
     margin-bottom: 1 rem;
 }
@@ -225,7 +228,7 @@ figcaption {
 
 aside {
     margin-left: 2rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     
 }
 
@@ -244,7 +247,7 @@ button {
     border-top-left-radius: 5% 20%;
     border-bottom-right-radius: 5% 20%;
     box-shadow: black;
-    color: white;
+    color: wheat;
     margin-top: 1 rem;
 }
 
