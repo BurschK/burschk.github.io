@@ -159,7 +159,7 @@ h1 {
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
-    transform: rotate(35deg);
+    transform: skewY(35deg);
     }
 
 .highlight {
@@ -173,7 +173,7 @@ h1 {
     color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
-    transform: rotate(20deg);
+    transform: skewY(20deg);
 }
 
 nav {
