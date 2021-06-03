@@ -243,6 +243,7 @@ figcaption {
 aside {
     margin-left: 2rem;
     margin-right: 4rem;
+    padding-left: 1rem;
     border-left: .03125rem solid black;
     
     
