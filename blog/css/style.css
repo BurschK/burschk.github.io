@@ -56,6 +56,11 @@ font-size: 1rem;
 
 /*--Layout--*/
 
+.main-section {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
 
 .article-image {
     float: left;
