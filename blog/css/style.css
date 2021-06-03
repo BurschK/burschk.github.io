@@ -72,13 +72,12 @@ font-size: 1rem;
 
 .subsection {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    column-gap: .25rem;
 }
 
-hr {
-margin-right: 4rem
-}
+ hr {
+ margin-right: 4rem
+ }
 
 /*--Header and Footer--*/
 
@@ -164,8 +163,7 @@ h1 {
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
-    offset-rotate: auto;
-    transform: rotate(20deg);
+    transform: rotate(-20deg);
     }
 
 .highlight {
@@ -179,8 +177,7 @@ h1 {
     color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
-    offset-rotate: auto;
-    transform: rotate(20deg);
+    transform: rotate(-20deg);
 }
 
 nav {
@@ -203,7 +200,6 @@ width: 9.375rem;
 height: 5rem;
 color: black;
 text-transform: uppercase;
-transform: rotate(25deg);
 }
 
 h2 {
@@ -228,7 +224,6 @@ p {
 
 .time {
     font-size: .75rem;
-    font-style: oblique;
 }
 
 figure {
