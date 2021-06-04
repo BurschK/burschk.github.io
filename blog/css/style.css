@@ -72,7 +72,7 @@ font-size: 1rem;
 
 .subsection {
     display: grid;
-    column-gap: .25rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
  hr {
