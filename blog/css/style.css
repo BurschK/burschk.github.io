@@ -66,11 +66,11 @@ font-size: 1rem;
 }
 
 h1 {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 }
 
 .highlight {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 }
 
 .article-image {
