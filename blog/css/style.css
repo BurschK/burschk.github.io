@@ -165,7 +165,7 @@ h1 {
     margin-bottom: 3.5rem;
     margin-left: none
     margin-right: none
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     }
 
 .highlight {
@@ -179,7 +179,7 @@ h1 {
     color:lightgray;
     text-align: center;
     margin-bottom: 1 rem;
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
 }
 
 nav {
