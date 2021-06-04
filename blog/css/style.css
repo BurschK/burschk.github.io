@@ -65,6 +65,14 @@ font-size: 1rem;
     margin-right: 1rem;
 }
 
+h1 {
+    transform: rotate(-15deg);
+}
+
+.highlight {
+    transform: rotate(-15deg);
+}
+
 .article-image {
     float: left;
     margin-right: 1rem;
@@ -162,25 +170,22 @@ h1 {
     font-weight: bold;
     text-shadow: black;
     text-align: center;
-    margin-top: 1rem;
     margin-bottom: 3.5rem;
     margin-left: none
     margin-right: none
-    transform: rotate(-15deg);
     }
 
 .highlight {
     font-family:"ultra", Times, serif;
     font-size: 4rem;
+    text-align: center;
     border: .5rem solid maroon;
     background-color: maroon;
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
     box-shadow: black;
     color:lightgray;
-    text-align: center;
     margin-bottom: 1 rem;
-    transform: rotate(-15deg);
 }
 
 nav {
