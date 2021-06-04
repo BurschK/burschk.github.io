@@ -66,11 +66,11 @@ font-size: 1rem;
 }
 
 h1 {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
 }
 
 .highlight {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
 }
 
 .article-image {
@@ -186,6 +186,8 @@ h1 {
     box-shadow: black;
     color:lightgray;
     margin-bottom: 1 rem;
+    margin-left: none
+    margin-right: none
 }
 
 nav {
