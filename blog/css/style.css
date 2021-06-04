@@ -158,13 +158,13 @@ font-size: 1rem;
 
 h1 {
     font-family:"opensans", Verdana, sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-shadow: black;
     text-align: center;
     margin-bottom: 3.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: none
+    margin-right: none
     transform: rotate(-10deg);
     }
 
